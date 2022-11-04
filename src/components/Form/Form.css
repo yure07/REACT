@@ -1,0 +1,38 @@
+.form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  font-weight: 700;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.form button {
+  width: 45px;
+  border-radius: 50%;
+  height: 45px;
+  margin-left: 10px;
+  background: #393c3d;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.form button:hover{
+  background: #f5fffb;
+  transition: all 0.5s;
+  color: #000;
+}

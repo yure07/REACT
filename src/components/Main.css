@@ -1,0 +1,23 @@
+
+.main {
+    background: #c6c3c2;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 5px, 5px, 1px, black;
+    border-radius: 10px;
+}
+
+.main h1 {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+ /* --- MEDIA QUERIES --- */
+ @media screen and (max-width: 660px) {
+     .main{
+      max-width: 380px;
+     }
+ }
